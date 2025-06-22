@@ -56,9 +56,3 @@ Prompt:
 Generate the technical documents according to the instructions in this document.
 ```
 
-## Sample generated documents
-
-- [chat-with-your-data-copilot-studio.md](chat-with-your-data-copilot-studio.md)
-- [chat-with-your-data-foundry-agent.md](chat-with-your-data-foundry-agent.md)
-- [chat-with-a-document-m365.md](chat-with-a-document-m365.md)
-- [chat-with-data-m365.md](chat-with-data-m365.md)
