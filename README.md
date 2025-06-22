@@ -4,15 +4,7 @@ Demonstrates a technique to generate technical documents using Visual Studio Cod
 
 ## Summary of the technique
 
-This technique leverages VSCode's Agent mode capabilities combined with GitHub Copilot to automatically generate comprehensive technical documentation. By defining structured instructions in a `.vscode/copilot-instructions.md` file, developers can establish consistent documentation standards including security requirements (TLS/SSL, managed identities, EntraID authentication) and predefined document sections. 
-
-The workflow involves:
-1. Creating a standardized instruction template that specifies document structure and security patterns
-2. Preparing a requirements document containing project-specific details
-3. Using Agent mode to reference the requirements file as context
-4. Executing a simple prompt to trigger automated document generation based on the predefined rules and requirements
-
-This approach ensures consistent, security-compliant technical documentation across projects while significantly reducing manual documentation effort.
+This technique leverages VSCode's Agent mode capabilities combined with GitHub Copilot to automatically generate comprehensive technical documentation. By defining structured instructions in a `.vscode/copilot-instructions.md` file, developers can establish consistent documentation standards requirements and document formatting. 
 
 
 ## Copilot Intructions
@@ -20,12 +12,12 @@ This approach ensures consistent, security-compliant technical documentation acr
 The [.vscode/copilot-instructions.md](.github/copilot-instructions.md) file serves as a configuration template that defines:
 
 - **Documentation standards**: Establishes consistent structure across all generated technical documents
-- **Security patterns**: Enforces security requirements like TLS/SSL, managed identities, and EntraID authentication
 - **Document sections**: Predefines which sections to include (Introduction, Architecture, Security, etc.)
 - **Conditional rules**: Specifies logic for different document types (e.g., excluding certain sections for low-code solutions)
-- **Azure best practices**: Ensures generated content follows Azure development guidelines
 
-This file acts as a blueprint that GitHub Copilot references when generating technical documentation, ensuring consistency and compliance across all project documents.
+More instruction and rules can be added to this document to finetune the generation of the documents.
+
+This file acts as a blueprint that GitHub Copilot references when generating technical documentation, ensuring consistency and compliance across all project documents. 
 
 
 ## Requirements document
