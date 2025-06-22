@@ -9,7 +9,7 @@ This technique leverages VSCode's Agent mode capabilities combined with GitHub C
 
 ## Copilot Intructions
 
-The [.vscode/copilot-instructions.md](.github/copilot-instructions.md) file serves as a configuration template that defines:
+The [.github/copilot-instructions.md](.github/copilot-instructions.md) file serves as a configuration template that defines:
 
 - **Documentation standards**: Establishes consistent structure across all generated technical documents
 - **Document sections**: Predefines which sections to include (Introduction, Architecture, Security, etc.)
