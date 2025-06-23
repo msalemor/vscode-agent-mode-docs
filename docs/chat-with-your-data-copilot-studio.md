@@ -1,4 +1,4 @@
-# Chat with Your Data using Copilot Studio
+# Chat with Your knowledge using Copilot Studio
 
 ## Introduction
 
